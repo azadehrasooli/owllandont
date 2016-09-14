@@ -1,0 +1,970 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/azad/ontologies/2016/8/untitled-ontology-39"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/azad/ontologies/2016/8/untitled-ontology-39">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Africa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apartment_building_process_The_design_and_construction_of_the_Korinthos_Apartment_Building_in_Cyprus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Austr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Berkeley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Borrowers_bricoleurs_and_builders_of_architectural_knowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brasil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardiff_University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Color_sensation_and_the_realizations_of_color_on_exterior_architecture_An_archival_and_experimental_study_of_color_perception_preference_and_meaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Columbia_University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cornell_University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delft_University_of_Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ETH_Zurich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecole_Polytechnique_Fédérale_de_Lausanne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eindhoven_University_of_Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Europ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experiencing_the_Past_The_Virtual_Re_Construction_of_Places"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Georgia_Institute_of_Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Germ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harvard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Istanbul_Technical_University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Italy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KTH_Royal_Institute_of_Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Korea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LANDSCAPE_PORTRAYALS_THEIR_USE_ACCURACY_AND_VALIDITY_IN_SIMULATING_PROPOSED_LANDSCAPE_CHANGES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MIT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manchester_School_of_Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#McGill_University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Middle_East"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#National_University_of_Singapore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#North_America"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oceania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Politecnico_di_Milano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Princeton_University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seoul_National_University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Singa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#South_Africa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#South_America"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stanford_University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Switz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technische_Universität_München"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Hong_Kong_Polytechnic_University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_University_of_Hong_Kong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_University_of_Melbourne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_University_of_New_South_Wales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_University_of_Sheffield"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_University_of_Sydney"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_University_of_Tokyo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tsinghua_University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turkey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UCL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UCLA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#US"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Universidade_de_São_Paulo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University_of_British_Columbia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University_of_Cambridge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University_of_Cape_Town"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University_of_Illinois_at_Urbana-_Champaign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University_of_Michigan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University_of_Pennsylvania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University_of_Texas_at_Austin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yale_University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#انرژی_و_تکنولوژی_ساخت"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#برخورداری_از_دورۀ_دکتری_معماری"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#تاریخ_و_تئوری"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#تنوع"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#تنوع_جغرافیایی"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#تنوع_حوزه‌ها"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#تنوع_ماهیت_دورۀ_دکتری"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#حفاظت_و_مرمت"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#حوزه_موضوعی"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#دانشگاه"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#در_اختیار_بودن_منابع"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ذوقی"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#رتبه_بندی"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#زمینه"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#شهر"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#طراحی"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#فلسفی"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#مدیریت_پروژه"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#مسئله_مدار"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#معیار_انتخاب"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#معیار_انتخاب_دانشگاه"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#معیار_انتخاب_رساله"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#مفهوم"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#منظر"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#نرم‌افزار_و_محاسبات"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#نظریه_مدار"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#هنجاری"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#پرسش_مدار"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#پژوهش"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#کاوش_مدار"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۱_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۱۰_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۱۱_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۱۲_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۱۳_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۱۴_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۱۵_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۱۶_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۱۷_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۱۸_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۱۹_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۲_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۲۰_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۳_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۴_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۵_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۶_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۷_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۸_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#۹_می‌پردازد_به"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#استاد"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#تاریخ"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#موفقعیت_جغرافیایی"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#نویسنده"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <Class IRI="#دانشگاه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apartment_building_process_The_design_and_construction_of_the_Korinthos_Apartment_Building_in_Cyprus"/>
+        <Class IRI="#Berkeley"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <Class IRI="#دانشگاه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Austr"/>
+        <Class IRI="#Oceania"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berkeley"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Borrowers_bricoleurs_and_builders_of_architectural_knowledge"/>
+        <Class IRI="#Berkeley"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brasil"/>
+        <Class IRI="#South_America"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canada"/>
+        <Class IRI="#North_America"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiff_University"/>
+        <Class IRI="#UK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#China"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Color_sensation_and_the_realizations_of_color_on_exterior_architecture_An_archival_and_experimental_study_of_color_perception_preference_and_meaning"/>
+        <Class IRI="#Berkeley"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Columbia_University"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cornell_University"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delft_University_of_Technology"/>
+        <Class IRI="#Neth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ETH_Zurich"/>
+        <Class IRI="#Switz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecole_Polytechnique_Fédérale_de_Lausanne"/>
+        <Class IRI="#Switz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eindhoven_University_of_Technology"/>
+        <Class IRI="#Neth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europ"/>
+        <Class IRI="#دانشگاه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experiencing_the_Past_The_Virtual_Re_Construction_of_Places"/>
+        <Class IRI="#Berkeley"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Georgia_Institute_of_Technology"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Germ"/>
+        <Class IRI="#Europ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harvard"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hong"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Istanbul_Technical_University"/>
+        <Class IRI="#Turkey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Italy"/>
+        <Class IRI="#Europ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Japan"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KTH_Royal_Institute_of_Technology"/>
+        <Class IRI="#Swed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Korea"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LANDSCAPE_PORTRAYALS_THEIR_USE_ACCURACY_AND_VALIDITY_IN_SIMULATING_PROPOSED_LANDSCAPE_CHANGES"/>
+        <Class IRI="#Berkeley"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MIT"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manchester_School_of_Architecture"/>
+        <Class IRI="#UK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#McGill_University"/>
+        <Class IRI="#Canada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middle_East"/>
+        <Class IRI="#دانشگاه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#National_University_of_Singapore"/>
+        <Class IRI="#Singa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neth"/>
+        <Class IRI="#Europ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#North_America"/>
+        <Class IRI="#دانشگاه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oceania"/>
+        <Class IRI="#دانشگاه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Politecnico_di_Milano"/>
+        <Class IRI="#Italy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Princeton_University"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seoul_National_University"/>
+        <Class IRI="#Korea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Singa"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#South_Africa"/>
+        <Class IRI="#Africa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#South_America"/>
+        <Class IRI="#دانشگاه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stanford_University"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swed"/>
+        <Class IRI="#Europ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Switz"/>
+        <Class IRI="#Europ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technische_Universität_München"/>
+        <Class IRI="#Germ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Hong_Kong_Polytechnic_University"/>
+        <Class IRI="#Hong"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_University_of_Hong_Kong"/>
+        <Class IRI="#Hong"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_University_of_Melbourne"/>
+        <Class IRI="#Austr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_University_of_New_South_Wales"/>
+        <Class IRI="#Austr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_University_of_Sheffield"/>
+        <Class IRI="#UK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_University_of_Sydney"/>
+        <Class IRI="#Austr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_University_of_Tokyo"/>
+        <Class IRI="#Japan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tsinghua_University"/>
+        <Class IRI="#China"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turkey"/>
+        <Class IRI="#Middle_East"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UCL"/>
+        <Class IRI="#UK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UCLA"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UK"/>
+        <Class IRI="#Europ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#US"/>
+        <Class IRI="#North_America"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Universidade_de_São_Paulo"/>
+        <Class IRI="#Brasil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University_of_British_Columbia"/>
+        <Class IRI="#Canada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University_of_Cambridge"/>
+        <Class IRI="#UK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University_of_Cape_Town"/>
+        <Class IRI="#South_Africa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University_of_Illinois_at_Urbana-_Champaign"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University_of_Michigan"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University_of_Pennsylvania"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University_of_Texas_at_Austin"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yale_University"/>
+        <Class IRI="#US"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#انرژی_و_تکنولوژی_ساخت"/>
+        <Class IRI="#مفهوم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#برخورداری_از_دورۀ_دکتری_معماری"/>
+        <Class IRI="#معیار_انتخاب_دانشگاه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#تاریخ_و_تئوری"/>
+        <Class IRI="#مفهوم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#تنوع"/>
+        <Class IRI="#معیار_انتخاب_دانشگاه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#تنوع_جغرافیایی"/>
+        <Class IRI="#تنوع"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#تنوع_حوزه‌ها"/>
+        <Class IRI="#تنوع"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#تنوع_ماهیت_دورۀ_دکتری"/>
+        <Class IRI="#تنوع"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#حفاظت_و_مرمت"/>
+        <Class IRI="#مفهوم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#دانشگاه"/>
+        <Class IRI="#پژوهش"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#در_اختیار_بودن_منابع"/>
+        <Class IRI="#معیار_انتخاب_دانشگاه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ذوقی"/>
+        <Class IRI="#زمینه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#رتبه_بندی"/>
+        <Class IRI="#معیار_انتخاب_دانشگاه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#شهر"/>
+        <Class IRI="#مفهوم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#طراحی"/>
+        <Class IRI="#مفهوم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#فلسفی"/>
+        <Class IRI="#زمینه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#مدیریت_پروژه"/>
+        <Class IRI="#مفهوم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#مسئله_مدار"/>
+        <Class IRI="#حوزه_موضوعی"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#معیار_انتخاب"/>
+        <Class IRI="#پژوهش"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#معیار_انتخاب_دانشگاه"/>
+        <Class IRI="#معیار_انتخاب"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#معیار_انتخاب_رساله"/>
+        <Class IRI="#معیار_انتخاب"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#مفهوم"/>
+        <Class IRI="#پژوهش"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#منظر"/>
+        <Class IRI="#مفهوم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#نرم‌افزار_و_محاسبات"/>
+        <Class IRI="#مفهوم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#نظریه_مدار"/>
+        <Class IRI="#حوزه_موضوعی"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#هنجاری"/>
+        <Class IRI="#زمینه"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#پرسش_مدار"/>
+        <Class IRI="#حوزه_موضوعی"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#کاوش_مدار"/>
+        <Class IRI="#حوزه_موضوعی"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۱_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۱۰_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۱۱_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۱۲_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۱۳_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۱۴_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۱۵_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۱۶_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۱۷_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۱۸_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۱۹_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۲_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۲۰_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۳_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۴_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۵_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۶_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۷_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۸_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#۹_می‌پردازد_به"/>
+        <ObjectProperty IRI="#می‌پردازد_به"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#۱_می‌پردازد_به"/>
+        <Class IRI="#Experiencing_the_Past_The_Virtual_Re_Construction_of_Places"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#۲_می‌پردازد_به"/>
+        <Class IRI="#Borrowers_bricoleurs_and_builders_of_architectural_knowledge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#۳_می‌پردازد_به"/>
+        <Class IRI="#Color_sensation_and_the_realizations_of_color_on_exterior_architecture_An_archival_and_experimental_study_of_color_perception_preference_and_meaning"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#۴_می‌پردازد_به"/>
+        <Class IRI="#Experiencing_the_Past_The_Virtual_Re_Construction_of_Places"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#۵_می‌پردازد_به"/>
+        <Class IRI="#LANDSCAPE_PORTRAYALS_THEIR_USE_ACCURACY_AND_VALIDITY_IN_SIMULATING_PROPOSED_LANDSCAPE_CHANGES"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#۱_می‌پردازد_به"/>
+        <Class IRI="#تاریخ_و_تئوری"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#۱_می‌پردازد_به"/>
+        <Class IRI="#نرم‌افزار_و_محاسبات"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#۲_می‌پردازد_به"/>
+        <Class IRI="#تاریخ_و_تئوری"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#۲_می‌پردازد_به"/>
+        <Class IRI="#طراحی"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#۳_می‌پردازد_به"/>
+        <Class IRI="#تاریخ_و_تئوری"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#۳_می‌پردازد_به"/>
+        <Class IRI="#منظر"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#۴_می‌پردازد_به"/>
+        <Class IRI="#تاریخ_و_تئوری"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#۴_می‌پردازد_به"/>
+        <Class IRI="#نرم‌افزار_و_محاسبات"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#۵_می‌پردازد_به"/>
+        <Class IRI="#منظر"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#تاریخ"/>
+        <Class IRI="#Apartment_building_process_The_design_and_construction_of_the_Korinthos_Apartment_Building_in_Cyprus"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#تاریخ"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Apartment_building_process_The_design_and_construction_of_the_Korinthos_Apartment_Building_in_Cyprus</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Date: 1998
+Abstract:
+Place is characteristically imbued with a multiplicity of meanings contingent on the specificities of the society, time and space in which place is perceived. It is essentially subjective, relational and differential. As such, virtual multiplicity is the main characteristic of place where the virtual is understood as the sum of the real, a subjective mental act, and a motive or confusion. Space, conversely, is that which has no virtuality in it; it is objective. Accordingly, at least in theory, it is hard to distinguish between virtual and actual places. Outside of theory, virtual place typically suggests a system of representations that aims to convey through the senses an imagined or illusionary reality. Virtual place is mostly associated with places constructed using computational technology; most popular among them are massive multiuser online games (MMOGs).
+Lately, scholars are increasingly using such MMOGs to virtually construct or reconstruct historic places. The interpretation of such historic places depends on the affordances of the medium through which place is perceived and the ways in which such a medium is socially deployed and interpreted. This dissertation explores (1) the ways in which MMOGs are perceived and (2) the formative effect virtual reconstructions of historic places using gaming technology exercise on the interpretation of such places.
+Using two popular MMOGs as a case study, this dissertation shows that the perception of such places is conditioned by the suggestive technical affordances of the medium in addition to complex socio-historical forces. These conditions predispose expert users of MMOGs to perceive these virtual places in ways different than new users. New users perceive virtual environments in ways similar to the ways they perceive the actual environment: They assume an isomorphic relationship between the virtual reconstruction of a given place and its actuality. They value the formal and multi-sensory aspects of the environment. Expert users, on the other hand, perceive the virtual environment from a structural and functional perspective and pay less attention to its formal and sensory qualities. They seek novel and interesting social activities, increased technical knowledge and improved social status.
+This dissertation also uses the ancient settlement of Sirkap, located in modern-day Pakistan, as a case study, to demonstrate that the use of gaming technology to virtually reconstruct a historical place may entail a change in the interpretation of archaeological records. Most conventional historical accounts of Sirkap use two-dimensional site maps and city plans as the primary media to represent the urban fabric of the ancient settlement. The medium lends itself to interpret the Block D Apsidal Temple complex as the dominant socio-religious structure in the affluent northern parts of the settlement. When the author developed an interactive three-dimensional reconstruction of Sirkap using gaming technology—a medium that allows users, through their avatars, to explore the settlement from the standpoint of a pedestrian—it was immediately obvious that the aforementioned Block D Apsidal Temple complex did not demand such an interpretation. Instead, this study argues that, at least in the affluent northern parts of the settlement, the northern gate, its adjacent fortifications, and the Block A stupa court were the dominant structures. Such an interpretation leads the authors to question the canonical understanding of the role of the state and its military apparatus in the socio-religious life of Sirkap.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Borrowers_bricoleurs_and_builders_of_architectural_knowledge</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Date: 2006
+Abstract:
+This is a story about learning. It is a study of what students learn about architecture in a particular educational setting. I begin with the premise that architectural knowledge is situated and shared, and learning about architecture is shaped by many different forces. No one form of knowledge completely describes the broad complexity of the discipline. Indeed, no one context precisely encapsulates the rich variability of the educational process. The present examination focuses on pedagogical practices and strategies that are exercised in the design studio. The design studio is a fundamental component of architectural education and as such, presents a logical starting point for research about the learning process. The purpose of this study is to identify what students learn in the design studio by examining how learning happens.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Color_sensation_and_the_realizations_of_color_on_exterior_architecture_An_archival_and_experimental_study_of_color_perception_preference_and_meaning</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Date: 1987
+Abstract:
+Two different avenues of research designs were used to investigate the design properties of color, not just as another decorative tool of the architect, but as the existence of differences in perceptual processes which correspond to or parallel cultural sub-group differences. First is a comprehensive discussion of archival data on color to clarify and stress the various aspects of color to human existence. This information conveys to the reader what areas of color research have and have not been covered and the often conflicting and confusing research findings. It also gives the knowledge needed to fully appreciate the various scientific and philosophical color concepts associated with the discussion of color meaning, perception, and preference, and their relationship to the subject of cultural sub-group response and use of color in the built human environment. The second portion of the document transfers part of the archival data into a design related situation which is relevant to the concerns expressed about designing for low-income groups. Connotative dimensions and their relationship to perceptual parameters of ten colors were investigated as an isolated stimulus and as simulated colors on the exterior of a multi-family residential structure. Using a unipolar scale of 33 rating descriptors, and a total of 75 subjects from three American cultural sub-groups, the colors are assessed for their variables of meaning. Relationships are presented in the form of linear correlations, statistical mean scores, and coefficient of variations. The findings indicate that: (1) the connotations of a color presented in a simulated architectural context differs from the connotations derived from its isolated appearance; (2) some colors and variables of meaning were more affected by the contrast in conditions than were others; (3) the connotations of the colors presented (isolated and simulated context) and the variables of meaning did differ; (4) there was a measurable cultural sub-group difference in color preference; and (5) the degree of difference among cultural sub-groups depends upon the descriptor being used for the evaluation and the color stimuli. However, the degree of difference depends upon the descriptor being used for the evaluation and the color stimuli under study.
+ </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LANDSCAPE_PORTRAYALS_THEIR_USE_ACCURACY_AND_VALIDITY_IN_SIMULATING_PROPOSED_LANDSCAPE_CHANGES</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Abstract:
+In recent decades, efforts to protect landscape quality have become widespread, as in legislation for environmental impact assessment. One of the tools used in impact assessment is the picture or portrayal of proposed landscape changes. This helps planners to analyse the project and present it to the public for their information and response. This study addresses the validity and effectiveness of landscape portrayals or perspective simulations used in visual evaluations of proposed projects.
+Typical portrayals, including renderings, models, photomontages, and computer graphics, were surveyed. Many were found poorly to represent important views of projects and viewing conditions. The study compared a sample of portrayals with the corresponding views of built projects. Environmental professionals were asked to provide (1) landscape evaluations of scenes, and (2) appraisals of portrayals.
+Respondents showed most confidence in precise models and photograph-based portrayals, and least in portrayals lacking detail and site-context. Appraisals of portrayal accuracy, in comparison with site-photographs of built projects, revealed that most are markedly inaccurate.
+By comparing respondents&apos; landscape evaluations made with portrayals against those made with site-photographs, a measure of response equivalence or bias attributable to portrayals was obtained. Three-quarters of the portrayals exhibited substantial response bias in one or more dimensions of landscape evaluation. Bias was split evenly between portrayals favourable to the project and those unfavourable.
+No strong relationship of overall image accuracy to response equivalence was found, although landscape evaluations varied significantly with portrayal characteristics. Pronounced image abstraction may be directly related to poor response equivalence. Restrictions on field-of-view were associated with reduced response equivalence. Experimental simulations with controlled accuracy provided no clear evidence that abstraction of detail/texture of colour distortion reduces response equivalence. Renderings were found to be associated with more favourable evaluations than other media.
+Relationships between portrayal characteristics and response equivalence are complex and require further examination. Meanwhile, precautions to improve validity and credibitility of portrayals include reducing certain image inaccuracies, and better documentation of the simulation process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#زمینه</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">رویکرد فلسفی</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
